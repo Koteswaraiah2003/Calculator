@@ -6,6 +6,7 @@ using namespace std;
 class Calculator {
 public:
 
+
     void menu();
     int add(int a, int b);
 
@@ -14,5 +15,6 @@ public:
     int multiply(int a, int b);
 
     double divide(int a, int b);
+
 };
 #endif // CALCULATOR_H
